@@ -28,7 +28,11 @@ $(document).ready(function(){
       success: function(data){
         $('#container').empty();
         getJokes();
+      },
+      error: function(){
+        console.log('something went wrong...');
       }
+
   });
 }
 
@@ -42,7 +46,9 @@ $(document).ready(function(){
         // function to append jokes to DOM
         console.log(data);
         appendJokes(data);
-
+      },
+      error: function(){
+        console.log('something went wrong...');
       }
     });
   }

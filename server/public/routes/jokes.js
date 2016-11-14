@@ -20,7 +20,6 @@ var jokes = [
 ];
 
 router.get('/', function(req, res){
-  console.log('works!');
   res.send(jokes);
 });
 

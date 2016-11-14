@@ -3,6 +3,17 @@
 form{
   margin: 50px auto;
 }
+
+body{
+  background-color: #cccccc;
+  margin: 100px;
+}
+
 .jokeBox{
   border: 2px solid grey;
+  margin: 10px;
+  padding: 15px;
+  width: 700px;
+
+  background-color: #ffe699;
 }
